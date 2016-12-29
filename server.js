@@ -10,14 +10,10 @@ app.use(fucntion (req, res, next) {
     next();
 
   } else{
-    res.redirect('http://'+req.jostname + req.url);
+    res.redirect('http://'+req.hostname + req.url);
   }
 
-
 });
-
-
-
 
 app.use(express.static('public'));
 app.listen (PORT, function () {
