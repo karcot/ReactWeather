@@ -9,6 +9,13 @@ var Examples = require('Examples');
 var WeatherMessage =require ('WeatherMessage');
 var WeatherForm = require ('WeatherForm');
 
+// load foundation-sites
+
+require ('style!css!foundation-sites/dist/foundation.min.css')
+
+$(document).foundation();
+
+
 
 
 ReactDOM.render (
