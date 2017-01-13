@@ -16,7 +16,7 @@ onFormSubmit: function(e) {
     return (
 <div>
       <form onSubmit ={this.onFormSubmit}>
-        <input ref ='location' type = 'text' placeholder = 'Enter city Name'/>
+        <input ref ='location' type = 'search' placeholder = 'search weather by city'/>
         <button className = "button expanded hollow" > Get Weather </button>
       </form>
       </div>
