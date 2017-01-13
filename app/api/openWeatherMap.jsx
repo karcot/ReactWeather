@@ -17,8 +17,8 @@ debugger;
     } else {
       return res.data.main.temp;
     }
-  }, function(res){
-    throw new Error(res.data.mesage);
+  }, function(){
+    throw new Error('unable to fetch weather');
   });
 }
 
