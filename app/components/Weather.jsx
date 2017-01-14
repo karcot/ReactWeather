@@ -36,6 +36,7 @@ var Weather = React.createClass ({
     });
   },
 
+
   componentDidMount: function () {
     var location =this.props.location.query.location;
 
@@ -44,6 +45,7 @@ var Weather = React.createClass ({
       window.location.hash='#/'
         }
   },
+
 
   componentWillReceiveProps: function(newProps) {
     var location =newProps.location.query.location;
